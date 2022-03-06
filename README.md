@@ -117,9 +117,13 @@ xhr.open("get","/testAJAX?t="+Date.now());
 Ref: https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/readyState
 
 `0 `: 表示 `XMLHttpRequest` 实例已经生成，但是 `open()` 方法还没有被调用。
+
 `1 `: 表示 `send()` 方法还没有被调用，仍然可以使用 `setRequestHeader()`，设定 HTTP请求的头信息。
+
 `2 `: 表示 send()方法已经执行，并且头信息和状态码已经收到。
+
 `3 `: 表示正在接收服务器传来的 body 部分的数据。
+
 `4 `: 表示服务器数据已经完全接收，或者本次接收已经失败了
 
 ## 第 2 章: jQuery 中的 AJAX
