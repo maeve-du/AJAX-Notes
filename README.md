@@ -133,8 +133,11 @@ Ref: https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/readyState
 $.get(url, [data], [callback], [type])
 ```
 `url: `请求的 URL 地址。
+
 `data: `请求携带的参数。
+
 `callback: `载入成功时回调函数。 
+
 `type: `设置返回内容格式，xml, html, script, json, text, _default。
 
 ### 2.2 post 请求
@@ -142,8 +145,11 @@ $.get(url, [data], [callback], [type])
 $.post(url, [data], [callback], [type])
 ```
 `url: `请求的 URL 地址。
+
 `data: `请求携带的参数。
+
 `callback: `载入成功时回调函数。 
+
 `type: `设置返回内容格式，xml, html, script, json, text, _default。
 
 ## 第3章:跨域
